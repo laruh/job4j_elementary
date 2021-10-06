@@ -10,8 +10,8 @@ public class ArrayDefinition {
         names[1] = "Igor Kovalkov";
         names[2] = "Vladimir Zhdanov";
         names[3] = "Maxim Bardakov";
-        for (int i = 0; i < 4; i++) {
-            System.out.println(names[i]);
+        for (String name : names) {
+            System.out.println(name);
         }
         System.out.println("Размер массива ages равен: " + ages.length);
         System.out.println("Размер массива surnames равен: " + surnames.length);
