@@ -1,4 +1,5 @@
 package ru.job4j.array;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -27,7 +28,7 @@ public class SwitchArrayTest {
     @Test
     public void whenSwap3to2() {
         int[] input = {1, 2, 3, 4};
-        int source = input.length-1;
+        int source = input.length - 1;
         int dest = 2;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {1, 2, 4, 3};
